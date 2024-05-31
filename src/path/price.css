@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.price{
+    width: 40%;
+    margin: 10px auto;
+    height: 580px;
+    box-shadow: 0px 0px 10px 2px gray;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price p{
+    position: absolute;
+    top: -5px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Satisfy', cursive;
+    font-weight: 700;
+}
+.price ul {
+    position: absolute;
+    top: 60px;
+    line-height: 1.8;
+}
+.price ul li {
+    list-style: square;
+    font-family: 'Alkatra', cursive;
+    font-size: 20px;
+}

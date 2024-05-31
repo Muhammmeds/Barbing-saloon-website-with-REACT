@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+nav {
+    width: 100%;
+    min-height: 60px;
+    position: relative;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+    list-style: none;
+    display: inline-block;
+    font-family: 'Alkatra', cursive;
+    transition: 0.3s;
+}
+nav ul {
+    position: absolute;
+    right: 55px;
+}
+nav p {
+    position: absolute;
+    left: 90px;
+    font-family: 'Satisfy', cursive;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    display: inline-block;
+    text-decoration: underline;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 0px 12px 0px 12px;
+    border-radius: 50px;
+    transition: 0.5;
+    font-size: 23px;
+    cursor: pointer;
+}
+nav ul li a:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid gray;
+}
+nav ul li:hover{
+    transform: scale(1.1);
+}

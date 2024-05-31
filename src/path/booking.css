@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.booking{
+    width: 40%;
+    margin: 15px auto;
+    height: fit-content;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px 2px gray;
+    position: relative;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.booking p{
+    position: absolute;
+    top: -8%;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Satisfy', cursive;
+    text-decoration: underline;
+
+}
+.booking form{
+    margin-top: 70px;
+    position: relative;
+    left: -5%;
+
+}
+.booking label{
+    font-size: 25px;
+    position: relative;
+    top: -5px;
+    justify-self: start;
+}
+
+.booking input{
+    width: 120%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+
+}
+.booking .haircut{
+    font-size: 15px;
+    position: relative;
+    top: -5px;
+}
+.booking select {
+    position: relative;
+    top: -5px;
+}
+.booking .error{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    position: absolute;
+    left: 45px;
+    top: 83%;
+}
+
+
+.booking form button{
+    border: none;
+    padding: 5px 10px 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 30px;
+    transition: 0.3;
+    cursor: pointer;
+}
+.booking button:hover{
+    background-color: gray;
+    color: black;
+    transform: scale(1.1);
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.confirmation{
+    width: 40%;
+    margin: 10px auto;
+    height: 400px;
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 0px 0px 10px 2px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.confirmation .icon{
+    font-size: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 2px gray;
+    padding: 20px 40px 20px 40px;
+    background-color: rgb(45, 43, 43);
+    color: white;
+    margin-top: 15px;
+    top: 20px;
+}
+.confirmation .email{
+    margin-top: -70px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.confirmation button {
+    font-size: 25px;
+    margin-top: -20px;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+.confirmation button:hover{
+    background-color: gray;
+    color: black;
+}
+

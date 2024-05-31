@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.footer{
+    width: 100%;
+    min-height: fit-content;
+    background-color: black;
+    display:flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.contact{
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    background-color: black;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50px;
+    height: fit-content;
+    width: calc(100% /3);
+    transition: 0.3s;
+}
+.contact:hover{
+    background-color: white;
+    color: black;
+}
+.contact:hover  .icon{
+    color: black;
+}
+
+
+.address{
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 50px;
+    min-height: 150px;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.address:hover{
+    background-color: white;
+}
+
+.address:hover p{
+    color: black;
+}
+
+.copyright{
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+    min-height: 100px;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.contact ul{
+    list-style: none;
+    line-height: 2;
+
+}
+.contact ul li  .icon{
+    margin-left: 10px;
+    margin-top: 5px;
+    color: white;
+    position: absolute;
+    left: 15px;
+    font-size: 25px;
+}
+.contact ul li span{
+    margin-left: 15px;
+    font-size: 17px;
+    font-family: 'Alkatra', cursive;
+
+}
+.contact p{
+    font-family: 'Satisfy', cursive;
+    text-decoration: underline;
+    position: absolute;
+    left: 30%;
+    margin-top: -5px;
+    font-weight: 800;
+    word-spacing: 4px;
+}
+
+.address  .firstp{
+    font-family: 'Satisfy', cursive;
+    align-self: start;
+    position: absolute;
+    top: 45px;
+    text-decoration: underline;
+    font-weight: 800;
+
+}
+.address .firstp .icon2{
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+.address .addressdetails{
+    position: absolute;
+    top:90px;
+    font-family: 'Alkatra', cursive;
+    font-size: 17px;
+    word-spacing: 5px;
+}
+.copyright p:nth-last-of-type(1){
+    color: white;
+    position: absolute;
+    top: 120px;
+    font-family: 'Alkatra', cursive;
+    font-size: 18px;
+}
+.copyright p:nth-last-of-type(2){
+    font-family: 'Satisfy', cursive;
+    text-decoration: underline;
+    font-weight: 800;
+
+
+}
+.copyright:hover{
+    background-color: white;
+    color: black;
+}
+.copyright:hover p{
+    color: black;
+}
+
